@@ -16,6 +16,54 @@ Implementacao e avaliacao do algoritmo KNN com a base Iris, incluindo:
 
 Pasta do projeto: [KNN](KNN/)
 
+## Ambiente virtual
+
+Recomenda-se utilizar uma `venv` local e instalar as dependências listadas em `requirements.txt`.
+
+Fluxo recomendado no Windows:
+
+1. Criar a venv na raiz do projeto:
+
+```powershell
+python -m venv .venv
+```
+
+2. Ativar a venv:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+3. Instalar as dependências:
+
+```powershell
+pip install -r requirements.txt
+```
+
+4. No VS Code, selecionar o interpretador da pasta `.venv` para abrir e executar os notebooks.
+
+Fluxo recomendado no Linux:
+
+1. Criar a venv na raiz do projeto:
+
+```bash
+python3 -m venv .venv
+```
+
+2. Ativar a venv:
+
+```bash
+source .venv/bin/activate
+```
+
+3. Instalar as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. No VS Code, selecionar o interpretador da pasta `.venv` para abrir e executar os notebooks.
+
 ## Colaboradores
 
 - Daniel de Jesus Moreira
@@ -23,4 +71,4 @@ Pasta do projeto: [KNN](KNN/)
 
 ---
 
-_Atualizado em: 26/03/2026_
+_Atualizado em: 04/04/2026_
