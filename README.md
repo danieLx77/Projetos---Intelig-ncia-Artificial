@@ -6,15 +6,27 @@ A proposta e documentar cada projeto de forma organizada, mantendo código, note
 
 ## Projetos disponíveis
 
+
 ### 01 - Classificação com KNN
 
-Implementacao e avaliacao do algoritmo KNN com a base Iris, incluindo:
+Implementação e avaliação do algoritmo KNN com a base Iris, incluindo:
 
 - versão manual (hardcore);
 - versão com Scikit-learn;
 - comparação de desempenho por métricas e matriz de confusão.
 
 Pasta do projeto: [KNN](KNN/)
+
+### 02 - Clusterização com K-means
+
+Implementação e análise do algoritmo K-means na base Iris, contemplando:
+
+- versão manual (hardcore);
+- versão com Scikit-learn;
+- avaliação por Silhouette Score, tempo de execução e visualização dos clusters (PCA);
+- comparação detalhada entre as abordagens.
+
+Pasta do projeto: [K-MEANS](K-MEANS/)
 
 ## Ambiente virtual
 
