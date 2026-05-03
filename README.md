@@ -28,6 +28,16 @@ Implementação e análise do algoritmo K-means na base Iris, contemplando:
 
 Pasta do projeto: [K-MEANS](K-MEANS/)
 
+### 03 - Classificação com MLPClassifier
+
+Implementação e avaliação do classificador MLP (Perceptron Multicamadas) nas bases Iris e Wine, incluindo:
+
+- normalização dos dados com StandardScaler;
+- métricas de avaliação e matriz de confusão;
+- comparação com o KNN (Trabalho Prático 01).
+
+Pasta do projeto: [MLPC](MLPC/)
+
 ## Ambiente virtual
 
 Recomenda-se utilizar uma `venv` local e instalar as dependências listadas em `requirements.txt`.
@@ -83,4 +93,4 @@ pip install -r requirements.txt
 
 ---
 
-_Atualizado em: 04/04/2026_
+_Atualizado em: 03/05/2026_
