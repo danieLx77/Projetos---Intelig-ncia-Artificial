@@ -38,6 +38,18 @@ Implementação e avaliação do classificador MLP (Perceptron Multicamadas) nas
 
 Pasta do projeto: [MLPC](MLPC/)
 
+### 04 - Jogo dos Oito
+
+Implementação e comparação de algoritmos de busca para resolver o problema clássico do Jogo dos Oito, incluindo:
+
+- representação do tabuleiro como espaço de estados;
+- geração dos movimentos possíveis a partir do espaço vazio;
+- busca cega em largura (BFS);
+- busca informada A* com heurística da Distância de Manhattan;
+- comparação de desempenho por quantidade de movimentos, nós explorados e tempo de execução.
+
+Pasta do projeto: [JOGO_8](JOGO_8/)
+
 ## Ambiente virtual
 
 Recomenda-se utilizar uma `venv` local e instalar as dependências listadas em `requirements.txt`.
@@ -93,4 +105,4 @@ pip install -r requirements.txt
 
 ---
 
-_Atualizado em: 03/05/2026_
+_Atualizado em: 26/05/2026_
