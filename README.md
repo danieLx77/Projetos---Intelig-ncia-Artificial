@@ -50,6 +50,18 @@ Implementação e comparação de algoritmos de busca para resolver o problema c
 
 Pasta do projeto: [JOGO_8](JOGO_8/)
 
+### 05 - Algoritmos Genéticos
+
+Implementação dos componentes centrais de um Algoritmo Genético para maximizar a função $f(x) = x^2 - 3x + 4$ no intervalo $[-10, 10]$, incluindo:
+
+- codificação binária dos indivíduos;
+- configuração de população, gerações, crossover e mutação;
+- cálculo de fitness a partir da função objetivo;
+- seleção por torneio;
+- operadores de crossover e mutação.
+
+Pasta do projeto: [ALG_GENETICOS](ALG_GENETICOS/)
+
 ## Ambiente virtual
 
 Recomenda-se utilizar uma `venv` local e instalar as dependências listadas em `requirements.txt`.
